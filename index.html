@@ -1,46 +1,110 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Aureon X10</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+    <!-- =====================================================
+         MENÚ
+         ===================================================== -->
+
     <nav>
-        
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Sobre nosotros</a></li>
-            <li><a href="#">Contacta</a></li>
-            <li><a href="#">Productos</a>
-                <ul>
-                    <li>Moviles</li>
-                    <li>Accesorios</li>
-                </ul>
+
+        <!-- Checkbox que controla el menú hamburguesa -->
+        <input type="checkbox" id="menu-toggle">
+
+        <!-- Icono hamburguesa -->
+        <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+
+        <!-- Enlaces del menú -->
+        <ul class="menu">
+
+            <li>
+                <a href="#">Home</a>
             </li>
-            
+
+            <li>
+                <a href="#">Sobre nosotros</a>
+            </li>
+
+            <li>
+                <a href="#">Contacta</a>
+            </li>
+
+            <li class="productos">
+
+                <a href="#">Productos</a>
+
+                <!-- Submenú -->
+                <ul class="submenu">
+
+                    <li>
+                        <a href="#">Móviles</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Accesorios</a>
+                    </li>
+
+                </ul>
+
+            </li>
 
         </ul>
+
     </nav>
 
+
+    <!-- =====================================================
+         CONTENIDO PRINCIPAL
+         ===================================================== -->
+
     <main>
-    <div class="info">
-        <h1>AUREON X10</h1>
-        <h2>Nuevo smartphone</h2>
-        <p>
-        Descubre el Aureon X10, un smartphone diseñado para quienes buscan rendimiento,
-        estilo y tecnología en un solo dispositivo. 
-        Su pantalla AMOLED de 6.7 pulgadas ofrece colores vibrantes y una experiencia visual inmersiva,
-        ideal para disfrutar de tus series, juegos y redes sociales.
-        </p>
-        <button>Saber más</button>
-    </div>
-   <div class="img">
-    <img src="img/smartphone.png" alt="smartphone">
-   </div>
+
+        <div class="info">
+
+            <h1>AUREON X10</h1>
+
+            <h2>Nuevo smartphone</h2>
+
+            <p>
+                Descubre el Aureon X10, un smartphone diseñado
+                para quienes buscan rendimiento, estilo y tecnología
+                en un solo dispositivo.
+
+                Su pantalla AMOLED de 6.7 pulgadas ofrece colores
+                vibrantes y una experiencia visual inmersiva,
+                ideal para disfrutar de tus series, juegos y redes sociales.
+            </p>
+
+            <button>
+                Saber más
+            </button>
+
+        </div>
+
+
+        <div class="img">
+
+            <img src="img/smartphone.png" alt="Smartphone Aureon X10">
+
+        </div>
+
     </main>
-    
+
 </body>
+
 </html>
